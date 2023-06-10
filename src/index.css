@@ -1,4 +1,4 @@
-@import-normalize; 
+@import-normalize; /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -21,14 +21,17 @@ h4,
 h5,
 h6,
 p,
-ul
-{
+ul {
   margin: 0;
 }
 
-img
-{
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
   display: block;
   max-width: 100%;
 }
-
